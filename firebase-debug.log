@@ -1,0 +1,38 @@
+[debug] [2022-12-13T10:21:30.955Z] ----------------------------------------------------------------------
+[debug] [2022-12-13T10:21:30.957Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vjnatarajan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-12-13T10:21:30.958Z] CLI Version:   11.16.0
+[debug] [2022-12-13T10:21:30.958Z] Platform:      win32
+[debug] [2022-12-13T10:21:30.958Z] Node Version:  v16.15.0
+[debug] [2022-12-13T10:21:30.960Z] Time:          Tue Dec 13 2022 15:51:30 GMT+0530 (India Standard Time)
+[debug] [2022-12-13T10:21:30.960Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-13T10:21:31.057Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-13T10:21:31.057Z] > authorizing via signed-in user (vyshuammu958@gmail.com)
+[debug] [2022-12-13T10:21:31.057Z] [iam] checking project tictactoe-78157 for permissions ["firebase.projects.get"]
+[debug] [2022-12-13T10:21:31.058Z] > refreshing access token with scopes: []
+[debug] [2022-12-13T10:21:31.060Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-13T10:21:31.060Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-13T10:21:31.410Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-13T10:21:31.410Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-13T10:21:31.453Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tictactoe-78157:testIamPermissions [none]
+[debug] [2022-12-13T10:21:31.454Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tictactoe-78157:testIamPermissions x-goog-quota-user=projects/tictactoe-78157
+[debug] [2022-12-13T10:21:31.454Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tictactoe-78157:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-13T10:21:33.006Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tictactoe-78157:testIamPermissions 200
+[debug] [2022-12-13T10:21:33.006Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tictactoe-78157:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-13T10:21:33.008Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157 [none]
+[debug] [2022-12-13T10:21:34.027Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157 200
+[debug] [2022-12-13T10:21:34.027Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157 {"projectId":"tictactoe-78157","projectNumber":"391891618539","displayName":"tictactoe","name":"projects/tictactoe-78157","resources":{"hostingSite":"tictactoe-78157"},"state":"ACTIVE","etag":"1_0f078a4b-f55f-47de-a477-c51e19bb666d"}
+[info] 
+[info] === Serving from 'E:\Projects\tictactoe'...
+[info] 
+[debug] [2022-12-13T10:21:34.034Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tictactoe-78157/sites 
+[debug] [2022-12-13T10:21:35.160Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tictactoe-78157/sites 200
+[debug] [2022-12-13T10:21:35.160Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tictactoe-78157/sites {"sites":[{"name":"projects/tictactoe-78157/sites/tictactoe-78157","defaultUrl":"https://tictactoe-78157.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-12-13T10:21:35.161Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157/webApps/-/config [none]
+[debug] [2022-12-13T10:21:36.180Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157/webApps/-/config 200
+[debug] [2022-12-13T10:21:36.180Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157/webApps/-/config {"projectId":"tictactoe-78157","storageBucket":"tictactoe-78157.appspot.com","apiKey":"AIzaSyBJlrlBBwubBFjax2nOeoOSFj0tSo8af2A","authDomain":"tictactoe-78157.firebaseapp.com","messagingSenderId":"391891618539"}
+[debug] [2022-12-13T10:21:36.243Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157 [none]
+[debug] [2022-12-13T10:21:36.995Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157 200
+[debug] [2022-12-13T10:21:36.995Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tictactoe-78157 {"projectId":"tictactoe-78157","projectNumber":"391891618539","displayName":"tictactoe","name":"projects/tictactoe-78157","resources":{"hostingSite":"tictactoe-78157"},"state":"ACTIVE","etag":"1_0f078a4b-f55f-47de-a477-c51e19bb666d"}
+[info] i  hosting[tictactoe-78157]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[tictactoe-78157]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}

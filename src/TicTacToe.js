@@ -49,9 +49,9 @@ const TicTacToe = () => {
 
     if (turn === "X") {
       squares[num] = "X";
-      setTurn("0");
+      setTurn("O");
     } else {
-      squares[num] = "0";
+      squares[num] = "O";
       setTurn("X");
     }
     if (squares.includes("") === false) {
