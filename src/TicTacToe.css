@@ -1,60 +1,59 @@
 .tic {
-    background-color: #faf8f1;
-    height: 100vh;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
-  }
-  table td {
-    background-color: #e5ba73;
-    border: 1px solid #c58940;
-    font-size: 25px;
-    font-weight: bolder;
-    width: 100px;
-    height: 100px;
-    transition: all 0.2s;
-    align-items: center;
-    margin: auto 0;
-    text-align: center;
-    border-radius: 5px;
-  }
-  table td:hover {
-    background-color: #c58940;
-  }
-  table td:active {
-    transform: scale(0.9);
-  }
-  h1 {
-    color: rgb(212, 29, 29);
-  }
-  h2 {
-    color: #126e1d;
-    margin-left: -240px;
-  }
-  .winner {
-    color: rgb(27, 27, 214);
-    font-weight: 700;
-    font-size: larger;
-  }
-  .loser {
-    color: rgb(212, 29, 29);
-    font-weight: 700;
-    font-size: larger;
-  }
-  button {
-    background-color: #1b9b2a;
-    padding: 10px;
-    border: none;
-    color: white;
-    transition: all 0.2s;
-    font-weight: 600;
-  }
-  button:hover {
-    background-color: #126e1d;
-  }
-  button:active {
-    transform: scale(0.9);
-  }
-  
+  background-color: #faf8f1;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+table td {
+  background-color: #e5ba73;
+  border: 1px solid #c58940;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 100px;
+  height: 100px;
+  transition: all 0.2s;
+  align-items: center;
+  margin: auto 0;
+  text-align: center;
+  border-radius: 5px;
+}
+table td:hover {
+  background-color: #c58940;
+}
+table td:active {
+  transform: scale(0.9);
+}
+h1 {
+  color: rgb(212, 29, 29);
+}
+h2 {
+  color: #126e1d;
+  margin-left: -240px;
+}
+.winner {
+  color: rgb(27, 27, 214);
+  font-weight: 700;
+  font-size: larger;
+}
+.loser {
+  color: rgb(212, 29, 29);
+  font-weight: 700;
+  font-size: larger;
+}
+button {
+  background-color: #1b9b2a;
+  padding: 10px;
+  border: none;
+  color: white;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+button:hover {
+  background-color: #126e1d;
+}
+button:active {
+  transform: scale(0.9);
+}
